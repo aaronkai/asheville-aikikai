@@ -4,11 +4,11 @@
 
 <main>
 	<header>
-		<h1>Who We Are</h1>
+		<h1 class="font-Roboto">Who We Are</h1>
 		<img src={oSensai} />
 	</header>
 	<main>
-		<h1>Our Lineage</h1>
+		<h1 class="text-3xl">Our Lineage</h1>
 		<h2>O'Sensei</h2>
 		<p>
 			Aikido was developed by Moreihei Uyeshiba (O’Sensei) at the end of the 19th and beginning of

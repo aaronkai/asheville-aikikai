@@ -1,11 +1,9 @@
 <script>
 	import '../app.postcss';
-	import Nav from './../lib/nav.svelte';
 	import Header from '$lib/header.svelte';
+	import Footer from '$lib/footer.svelte';
 </script>
 
 <Header />
 <slot />
-<footer>
-	<p>Aaron Hubbard Web Dev</p>
-</footer>
+<Footer />
