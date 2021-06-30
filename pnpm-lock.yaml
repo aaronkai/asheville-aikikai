@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@sveltejs/adapter-netlify': ^1.0.0-next.17
   '@sveltejs/kit': ^1.0.0-next.117
   '@typescript-eslint/eslint-plugin': ^4.19.0
   '@typescript-eslint/parser': ^4.19.0
@@ -22,6 +23,7 @@ specifiers:
   vite-imagetools: ^3.6.8
 
 devDependencies:
+  '@sveltejs/adapter-netlify': 1.0.0-next.17
   '@sveltejs/kit': 1.0.0-next.119_svelte@3.38.3
   '@typescript-eslint/eslint-plugin': 4.28.1_20a3b80fca6a1319695de43eee7865f8
   '@typescript-eslint/parser': 4.28.1_eslint@7.29.0+typescript@4.3.4
@@ -97,6 +99,10 @@ packages:
       purgecss: 4.0.3
     dev: true
 
+  /@iarna/toml/2.2.5:
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: true
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -126,6 +132,13 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.0
+    dev: true
+
+  /@sveltejs/adapter-netlify/1.0.0-next.17:
+    resolution: {integrity: sha512-HDFdNKQ87d1pdh9da0vIKDUS4JSYLXZslk5vM2LU2Gwdm+CLRF+IDqZgavYdZsuMSZp/adFX82j7aV03gXABWQ==}
+    dependencies:
+      '@iarna/toml': 2.2.5
+      esbuild: 0.12.12
     dev: true
 
   /@sveltejs/kit/1.0.0-next.119_svelte@3.38.3:
