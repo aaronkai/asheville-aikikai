@@ -1,9 +1,10 @@
 <script>
-	import matScene1 from '$lib/assets/mat-scene-1.jpg';
-	import matScene2 from '$lib/assets/mat-scene-2.jpg';
-
 	import Banner from '$lib/banner.svelte';
 	import CallToAction from '$lib/callToAction.svelte';
+	import matScene1 from '$lib/assets/mat-scene-1.jpg';
+	import matScene2 from '$lib/assets/mat-scene-2.jpg?avi&srcset';
+	import { src } from '$lib/assets/mat-scene-2.jpg?metadata';
+
 	let visible = false;
 </script>
 
@@ -22,12 +23,16 @@
 			plane, and carries into our daily lives the ability to see through difficult situations.
 			Aikido is a lifelong journey towards harmony with all people.
 		</p>
-		<img
-			src={matScene2}
-			alt="Nage throws Uke"
-			class="sm:col-start-3 sm:col-end-4 	border
-			border-gray-900 md:row-span-2"
-		/>
+
+		<picture>
+			<source srcset={matScene2} />
+			<img
+				{src}
+				alt="Nage throws Uke"
+				class="sm:col-start-3 sm:col-end-4 	border
+				border-gray-900 md:row-span-2"
+			/>
+		</picture>
 		<p class="sm:col-start-2 sm:col-end-3 text-gray-900">
 			The physical benefits of regular training are many. As in many budo (martial arts), Aikidoists
 			learn good self-defense techniques and strategies, but with Aikido you will notice that even

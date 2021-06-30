@@ -9,7 +9,7 @@ const config = {
 				Montserrat: ['Montserrat', 'sans-serif']
 			},
 			backgroundImage: (theme) => ({
-				cta: "url('$lib/assets/manInGi.jpg')"
+				cta: "url('$lib/assets/manInGi.jpg?format=webp&w=1200')"
 			}),
 			gridTemplateColumns: {
 				fullbleed: '2fr 10fr 5fr'

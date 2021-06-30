@@ -1,5 +1,7 @@
 import preprocess from 'svelte-preprocess';
 
+import { imagetools } from 'vite-imagetools';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
@@ -12,7 +14,10 @@ const config = {
 
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
+		vite: {
+			plugins: [imagetools()]
+		}
 	}
 };
 
