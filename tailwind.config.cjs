@@ -13,6 +13,18 @@ const config = {
 			}),
 			gridTemplateColumns: {
 				fullbleed: '2fr 10fr 5fr'
+			},
+			gridTemplateRows: {
+				header: '4fr 1fr'
+			},
+			colors: {
+				brutalred: {
+					DEFAULT: '#ff0000'
+				}
+			},
+			height: {
+				vh50: '50vh',
+				vh75: '75vh'
 			}
 		}
 	},

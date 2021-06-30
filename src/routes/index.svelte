@@ -8,7 +8,7 @@
 </script>
 
 <main class="">
-	<header class=" max-w-4xl mx-auto my-24">
+	<header class=" max-w-4xl mx-auto my-24 h-vh75">
 		<Banner />
 	</header>
 	<CallToAction />

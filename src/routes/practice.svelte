@@ -6,7 +6,7 @@
 
 			<p class="pb-2">
 				Asheville Aikikai invites men and women (ages 14 and up) for advanced and beginning
-				practice. Beginners are welcome anytime
+				practice. Beginners are welcome anytime.
 			</p>
 			<p>
 				If you are interested in observing or joining a class, please feel free to drop in 10
