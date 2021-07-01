@@ -4,6 +4,9 @@
 	import Footer from '$lib/footer.svelte';
 </script>
 
-<Header />
-<slot />
-<Footer />
+<div class="grid gap-8">
+	<Header />
+	<slot />
+	<Footer />
+
+</div>
