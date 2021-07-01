@@ -1,4 +1,4 @@
-<main class="grid gap-y-8">
+<main class="max-w-xl mx-auto ">
 	<div class="border border-gray-500 h-96">
 		<iframe
 			loading="lazy"
@@ -12,7 +12,7 @@
 			tabindex="0"
 		/>
 	</div>
-	<section class="px-4">
+	<section class="mt-4">
 		<h1 class="text-3xl font-Roboto text-gray-900">See You On the Mat!</h1>
 		<h2 class="text-2xl font-Roboto mt-2 text-gray-900">Our Location</h2>
 		<address>

@@ -10,7 +10,7 @@
 </script>
 
 {#if visible}
-	<div class="max-w-lg mx-auto">
+	<div class="max-w-lg mx-auto h-48 md:h-auto">
 		<svg
 			width="100%"
 			height="100%"
