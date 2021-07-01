@@ -10,10 +10,12 @@
 </script>
 
 {#if visible}
-	<div class="max-w-lg mx-auto h-48 md:h-auto">
+<div class="max-w-lg mx-auto ">
+	<div class="mx-auto">
 		<svg
-			width="100%"
-			height="100%"
+			width=""
+			height="50vh"
+			class="mx-auto"
 			viewBox="20 37 168 168"
 			version="1.1"
 			id="svg15898"
@@ -59,7 +61,9 @@
 				/>
 			</g>
 		</svg>
-		<div>
+	</div>
+		
+	<div>
 			<div class="text-center">
 				{#each 'ASHEVILLE' as char, i}
 					<span
@@ -77,5 +81,6 @@
 				{/each}
 			</div>
 		</div>
-	</div>
+
+</div>
 {/if}

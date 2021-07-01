@@ -1,4 +1,4 @@
-<footer class="border-t-4 border-gray-900 py-4 mt-20 flex flex-col items-center justify-center ">
+<footer class="border-t-4 border-gray-900 py-4 flex flex-col items-center justify-center ">
 	<a href="https://aaronhubbard.dev" class="hover:text-brutalred text-gray-900"
 		>Aaron Hubbard Web Development</a
 	>

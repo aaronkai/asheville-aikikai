@@ -10,9 +10,9 @@
 </script>
 
 <main class="">
-	<header class=" max-w-4xl mx-auto my-24  h-vh75">
+	<div class=" max-w-4xl mx-auto h-vh75 md:h-vh85">
 		<Banner />
-	</header>
+	</div>
 	<CallToAction />
 	<article
 		class="grid  gap-y-8 gap-x-5 px-4 pt-20 md:grid-cols-fullbleed sm:mx-auto my-10 max-w-4xl  border-t-4 border-gray-900"
@@ -76,7 +76,6 @@
 				</a>
 			</address>
 
-			<p />
 			<h2 class="text-2xl font-Roboto mt-2 text-gray-900">Phone</h2>
 			<a href="tel:828-777-2416 text-gray-900" class="text-gray-900 hover:text-red-600 underline"
 				>(828) 777-2416</a

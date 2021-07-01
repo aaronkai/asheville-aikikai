@@ -1,8 +1,8 @@
-<main class="grid grid-row gap-y-8 items-center justify-items-center ">
-	<h1 class="font-Roboto text-5xl text-gray-900 mt-8">Adult Practice</h1>
-	<article class="grid grid-row gap-y-12 mx-4 max-w-sm ">
+<main class="grid grid-row justify-items-center h-vh75">
+	<article class=" mx-4 max-w-sm ">
+		<h1 class="font-Roboto text-5xl text-gray-900 my-8">Adult Practice</h1>
 		<section>
-			<h2 class="font-Roboto text-2xl text-gray-900 pb-2">All Are Welcome!</h2>
+			<h2 class="font-Roboto text-2xl text-gray-900 mb-4">All Are Welcome!</h2>
 
 			<p class="pb-2">
 				Asheville Aikikai invites men and women (ages 14 and up) for advanced and beginning
@@ -14,7 +14,7 @@
 			</p>
 		</section>
 		<section>
-			<h2 class="font-Roboto text-2xl text-gray-900 pb-2">Schedule</h2>
+			<h2 class="font-Roboto text-2xl text-gray-900 pb-2 mt-8 mb-4">Schedule</h2>
 			<table class="border border-gray-900">
 				<th class="border-r border-b border-gray-900"> Day</th>
 				<th class="border-b border-r border-gray-900">Time</th>

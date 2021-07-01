@@ -24,7 +24,10 @@ const config = {
 			},
 			height: {
 				vh50: '50vh',
-				vh75: '75vh'
+				vh75: '75vh',
+				vh25: '25vh',
+				vh15: '15vh',
+				vh85: '85vh'
 			}
 		}
 	},
