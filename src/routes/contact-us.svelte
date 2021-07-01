@@ -1,4 +1,6 @@
-<main class="max-w-xl mx-auto ">
+<main class="max-w-sm mx-auto ">
+	<h1 class="font-Roboto text-5xl text-gray-900 my-12 text-center">Contact Us</h1>
+
 	<div class="border border-gray-500 h-96">
 		<iframe
 			loading="lazy"
