@@ -1,7 +1,7 @@
-<main class="max-w-sm mx-auto h-vh75">
-	<h1 class="font-Roboto text-5xl text-gray-900 my-12 text-center">Contact Us</h1>
+<main class="max-w-sm mx-auto">
+	<h1 class="font-Roboto text-5xl text-gray-900 mb-12 text-center">Contact Us</h1>
 
-	<div class="border border-gray-500 h-96">
+	<figure class="border border-gray-500 h-96">
 		<iframe
 			loading="lazy"
 			style="border: 0; width: 100%; height: 100%"
@@ -13,8 +13,10 @@
 			aria-hidden="false"
 			tabindex="0"
 		/>
-	</div>
-	<section class="mt-4">
+		<figcaption>Dojo Location</figcaption>
+	</figure>
+
+	<section class="mt-8">
 		<h1 class="text-3xl font-Roboto text-gray-900">See You On the Mat!</h1>
 		<h2 class="text-2xl font-Roboto mt-2 text-gray-900">Our Location</h2>
 		<address>

@@ -68,7 +68,7 @@
 				{#each 'ASHEVILLE' as char, i}
 					<span
 						in:fade={{ delay: 1000 + i * 150, duration: 800 }}
-						class="text-6xl font-Montserrat text-gray-900">{char}</span
+						class="text-4xl sm:text-6xl font-Montserrat text-gray-900">{char}</span
 					>
 				{/each}
 			</div>
@@ -76,7 +76,7 @@
 				{#each 'AIKIKAI' as char, i}
 					<span
 						in:fade={{ delay: 1000 + i * 150, duration: 800 }}
-						class="text-6xl font-Montserrat text-gray-900">{char}</span
+						class="text-4xl sm:text-6xl font-Montserrat text-gray-900">{char}</span
 					>
 				{/each}
 			</div>

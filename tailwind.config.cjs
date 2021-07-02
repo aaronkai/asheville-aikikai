@@ -15,7 +15,8 @@ const config = {
 				fullbleed: '2fr 10fr 5fr'
 			},
 			gridTemplateRows: {
-				header: '4fr 1fr'
+				header: '4fr 1fr',
+				layout: 'auto 1fr auto'
 			},
 			colors: {
 				brutalred: {
