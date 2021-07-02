@@ -10,7 +10,7 @@
 </script>
 
 <main class="">
-	<div class=" max-w-4xl mx-auto h-vh75 md:h-vh85">
+	<div class=" max-w-4xl mx-auto h-vh75 md:h-vh85 pt-8">
 		<Banner />
 	</div>
 	<CallToAction />

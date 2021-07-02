@@ -7,13 +7,13 @@
 		<h1 class="uppercase font-Montserrat text-4xl sm:text-5xl  text-gray-900 col-span-4">Asheville Aikikai</h1>
 		<nav class="flex justify-between col-span-4 self-end">
 			<a href="/" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold">Home</a>
-			<a href="/about" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
+			<a href="/pages/about" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
 				>About</a
 			>
-			<a href="/practice" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
+			<a href="/pages/practice" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
 				>Practice</a
 			>
-			<a href="/contact-us" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
+			<a href="/pages/contact-us" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
 				>Contact</a
 			>
 		</nav>
