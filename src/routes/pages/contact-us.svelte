@@ -13,7 +13,7 @@
 			aria-hidden="false"
 			tabindex="0"
 		/>
-		<figcaption>Dojo Location</figcaption>
+		<figcaption class="text-sm text-gray-500">Dojo Location</figcaption>
 	</figure>
 
 	<section class="mt-8">

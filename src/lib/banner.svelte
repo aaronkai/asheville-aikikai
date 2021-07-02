@@ -10,11 +10,13 @@
 </script>
 
 {#if visible}
-<div class="max-w-lg mx-auto ">
+<div class="max-w-lg mx-auto h-vh75">
 	<div class="mx-auto">
 		<svg
 			width=""
-			height="50vh"
+			height=""
+			preserveAspectRatio="none" 
+
 			class="mx-auto"
 			viewBox="20 37 168 168"
 			version="1.1"
