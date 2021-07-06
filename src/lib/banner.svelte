@@ -13,8 +13,8 @@
 <div class="max-w-lg mx-auto h-vh75">
 	<div class="mx-auto">
 		<svg
-			width=""
-			height=""
+			width="100%"
+			height="100%"
 			preserveAspectRatio="none" 
 
 			class="mx-auto"
