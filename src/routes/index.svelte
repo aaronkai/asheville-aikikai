@@ -9,7 +9,6 @@
 	import { src as matScene1Src } from '$lib/assets/mat-scene-1.jpg?metadata';
 	import  matScene2 from '$lib/assets/mat-scene-2.jpg?avi&srcset';
 	import { src as matScene2Src } from '$lib/assets/mat-scene-2.jpg?metadata';
-	import { prefetchRoutes } from '$app/navigation';
 
 	let visible = false;
 </script>
@@ -33,7 +32,7 @@
 			<img
 				src={matScene2Src}
 				alt="Nage throws Uke"
-				class="	border border-gray-900"
+				class="	border border-gray-900 h-auto w-full"
 			/>
 		</picture>
 		<p class="sm:col-start-2 sm:col-end-3 text-gray-900">
@@ -53,7 +52,7 @@
 				src={matScene1Src}
 				width="100%"
 				alt="students work out on mat"
-				class="border-gray-900 border rouded "
+				class="border-gray-900 border  h-auto w-full"
 			/>
 
 		</picture>
