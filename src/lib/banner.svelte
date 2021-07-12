@@ -10,7 +10,7 @@
 </script>
 
 {#if visible}
-<div class="grid gap-4 justify-items-center h-vh75">
+<div class="grid gap-4 justify-items-center">
 	<div class="w-3/4 md:w-1/2 xl:w-1/4 self-end">
 		<svg
 			width="100px"
