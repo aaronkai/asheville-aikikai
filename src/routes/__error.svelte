@@ -2,7 +2,6 @@
 	export function load({ error, status }) {
 		return {
 			props: {
-				title: `${status}: ${error.message}`,
         status: {status},
         message: {error}
 			}
@@ -11,7 +10,6 @@
 </script>
 
 <script>
-	export let title;
   export let status;
   console.log(status)
   export let message;

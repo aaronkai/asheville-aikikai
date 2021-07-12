@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script>
 	import oSensei from '$lib/assets/oSensei.gif';
 	import Tohei from '$lib/assets/ToheiSensei.jpg';

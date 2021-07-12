@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <main class="max-w-sm mx-auto">
 	<h1 class="font-Roboto text-5xl text-gray-900 mb-12 text-center">Contact Us</h1>
 

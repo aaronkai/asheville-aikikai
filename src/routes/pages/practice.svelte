@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <main class="grid grid-row justify-items-center">
 	<article class=" mx-4 max-w-sm ">
 		<h1 class="font-Roboto text-5xl text-gray-900 mb-8">Adult Practice</h1>

@@ -1,6 +1,6 @@
 <script>
 	import { quintOut } from 'svelte/easing';
-	import { fade, draw, fly } from 'svelte/transition';
+	import { fade, draw } from 'svelte/transition';
 	import { gateInner, gateOuter, window1, window2, outer } from '$lib/shape';
 	import { onMount } from 'svelte';
 

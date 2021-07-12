@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script>
 	import Banner from '$lib/banner.svelte';
 	import CallToAction from '$lib/callToAction.svelte';
@@ -5,6 +9,7 @@
 	import { src as matScene1Src } from '$lib/assets/mat-scene-1.jpg?metadata';
 	import  matScene2 from '$lib/assets/mat-scene-2.jpg?avi&srcset';
 	import { src as matScene2Src } from '$lib/assets/mat-scene-2.jpg?metadata';
+	import { prefetchRoutes } from '$app/navigation';
 
 	let visible = false;
 </script>
