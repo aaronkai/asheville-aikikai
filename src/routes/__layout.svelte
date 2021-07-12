@@ -3,11 +3,8 @@
 	import Header from '$lib/header.svelte';
 	import Footer from '$lib/footer.svelte';
 </script>
-<div class="h-full">
-	<div class="grid grid-rows-layout min-h-full">
-		<Header />
-		<slot />
-		<Footer />
-	</div>
-
+<div class="grid grid-rows-layout min-h-full">
+	<Header />
+	<slot />
+	<Footer />
 </div>
