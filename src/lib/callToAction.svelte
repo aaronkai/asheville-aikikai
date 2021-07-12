@@ -22,7 +22,7 @@
 	{/if}
 
 	{#if visible}
-		<div class="p-4 flex flex-col bg-black bg-opacity-90 rounded mt-4 ">
+		<div class="p-6 flex flex-col bg-black bg-opacity-95 rounded mt-4 border-2 border-gray-400">
 			<div class="flex flex-row justify-between">
 				<h2 class="inline font-Roboto text-3xl text-white flex-initial">$90 includes:</h2>
 				<button
