@@ -51,7 +51,7 @@
 		<section class="grid grid=row gap-y-2 items-center justify-items-center">
 			<h1 class="font-Roboto text-5xl text-gray-900 mt-8 mb-4">Our Mission</h1>
 			<p>
-				We are dedicated to the development of 'Aikido Spirit'. Aikido Spirit fosters the highest
+				We are dedicated to the development of <em>Aikido Spirit</em>. Aikido Spirit fosters the highest
 				ethical standards. Aikido is entirely defensive and is to be utilized only with an
 				unprovoked attack. It utilizes methods of redirecting an attacker’s energy, ultimately
 				projecting or grounding it. When techniques are applied correctly no serious injury occurs.
