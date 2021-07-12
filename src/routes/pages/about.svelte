@@ -13,7 +13,7 @@
 	<article class="grid grid-row gap-y-16 mx-4 items-center justify-items-center max-w-sm ">
 		<section class="grid grid=row gap-y-2 items-center justify-items-center">
 			<figure>
-				<img src={oSensei} alt="O'Sensei" title="O'Sensei" class="h-auto w-full"/>
+				<img src={oSensei} alt="O'Sensei" title="O'Sensei" width="300" height="300" class="h-auto w-full"/>
 				<figcaption class="text-sm text-gray-500">O'Sensei</figcaption>
 			</figure>
 			<h2 class="font-Roboto text-2xl text-gray-900">O'Sensei</h2>
@@ -26,7 +26,7 @@
 		</section>
 		<section class="grid grid=row gap-y-2 items-center justify-items-center">
 			<figure class="py-2">
-				<img src={Tohei} alt="Tohei Sensei" title="Tohei Sensei" class="h-auto w-full" />
+				<img src={Tohei} alt="Tohei Sensei" width="300" height="420" title="Tohei Sensei" class="h-auto w-full" />
 				<figcaption class="text-sm text-gray-500">Tohei Sensei</figcaption>
 			</figure>
 			<h2 class="font-Roboto text-2xl text-gray-900">Akira Tohei</h2>
@@ -39,7 +39,7 @@
 		</section>
 		<section class="grid grid=row gap-y-2 items-center justify-items-center">
 			<figure class="py-2">
-				<img src={Palmer} alt="Palmer Sensei" title="Palmer Sensei" class="h-auto w-full"/>
+				<img src={Palmer} width="800" height="900" alt="Palmer Sensei" title="Palmer Sensei" class="h-auto w-full"/>
 				<figcaption class="text-sm text-gray-500">Palmer Sensei</figcaption>
 			</figure>
 			<h2 class="font-Roboto text-2xl text-gray-900">Dan Palmer</h2>

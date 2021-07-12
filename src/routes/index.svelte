@@ -32,6 +32,8 @@
 			<img
 				src={matScene2Src}
 				alt="Nage throws Uke"
+				width="300"
+				height="185"
 				class="	border border-gray-900 h-auto w-full"
 			/>
 		</picture>
@@ -50,7 +52,8 @@
 			<source srcset={matScene1} />
 			<img
 				src={matScene1Src}
-				width="100%"
+				width="300"
+				height="199"
 				alt="students work out on mat"
 				class="border-gray-900 border  h-auto w-full"
 			/>
