@@ -10,14 +10,14 @@
 </script>
 
 {#if visible}
-<div class="max-w-lg mx-auto h-vh75">
-	<div class="mx-auto">
+<div class="grid gap-4 justify-items-center h-vh75">
+	<div class="w-3/4 md:w-1/2 xl:w-1/4 self-end">
 		<svg
-			width="100%"
-			height="100%"
+			width="100px"
+			height="100px"
 			preserveAspectRatio="none" 
 
-			class="mx-auto"
+			class="w-full h-auto"
 			viewBox="20 37 168 168"
 			version="1.1"
 			id="svg15898"

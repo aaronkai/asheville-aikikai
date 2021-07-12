@@ -14,7 +14,7 @@
 </script>
 
 <main class="">
-	<div class=" max-w-4xl mx-auto h-vh75 md:h-vh85 pt-8">
+	<div class=" h-vh75 md:h-vh85 grid justify-self-center items-center ">
 		<Banner />
 	</div>
 	<CallToAction />
