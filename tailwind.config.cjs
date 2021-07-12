@@ -3,6 +3,9 @@ const config = {
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			screens: {
+				'3xl': '1921px'
+			},
 			fontFamily: {
 				Mullish: ['Mullish', 'sans-serif'],
 				Roboto: ['Roboto', 'sans-serif'],

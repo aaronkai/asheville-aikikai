@@ -4,16 +4,16 @@
 		class="max-w-4xl gap-x-4 grid grid-rows-header justify-between grid-cols-5 mx-auto items-center h-full"
 	>
 		<img src="/logo_new.svg" width="570" height="570" class="md:row-span-2 md:col-span-1 w-32 h-auto md:p-2" alt="logo" />
-		<h1 class="uppercase font-Montserrat text-4xl sm:text-5xl  text-gray-900 col-span-4">	<a href="/" class="hover:text-red-600 hover:bold">Asheville Aikikai</a></h1>
+		<h1 class="uppercase font-Montserrat 3xl:text-6xl text-4xl sm:text-5xl  text-gray-900 col-span-4">	<a href="/" class="hover:text-red-600 hover:bold">Asheville Aikikai</a></h1>
 		<nav class="flex justify-between col-span-5 md:col-span-4 self-end">
-			<a sveltekit:prefetch href="/" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold">Home</a>
-			<a sveltekit:prefetch href="/pages/about" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
+			<a sveltekit:prefetch href="/" class="text-sm 3xl:text-xl uppercase text-gray-900 hover:text-red-600 hover:bold">Home</a>
+			<a sveltekit:prefetch href="/pages/about" class="text-sm 3xl:text-xl uppercase text-gray-900 hover:text-red-600 hover:bold"
 				>About</a
 			>
-			<a sveltekit:prefetch href="/pages/practice" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
+			<a sveltekit:prefetch href="/pages/practice" class="text-sm 3xl:text-xl uppercase text-gray-900 hover:text-red-600 hover:bold"
 				>Practice</a
 			>
-			<a sveltekit:prefetch href="/pages/contact-us" class="text-sm uppercase text-gray-900 hover:text-red-600 hover:bold"
+			<a sveltekit:prefetch href="/pages/contact-us" class="text-sm 3xl:text-xl uppercase text-gray-900 hover:text-red-600 hover:bold"
 				>Contact</a
 			>
 		</nav>
