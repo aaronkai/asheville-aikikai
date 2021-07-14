@@ -11,6 +11,10 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@movingbrands/svelte-portable-text": "^0.0.11",
+		"@sanity/block-content-to-hyperscript": "^3.0.0",
+		"@sanity/client": "^2.11.0",
+		"@sanity/image-url": "^0.140.22",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.17",
 		"@sveltejs/kit": "^1.0.0-next.117",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
@@ -20,6 +24,7 @@
 		"eslint": "^7.22.0",
 		"eslint-config-prettier": "^8.1.0",
 		"eslint-plugin-svelte3": "^3.2.0",
+		"hyperscript": "^2.0.2",
 		"postcss": "^8.3.5",
 		"postcss-load-config": "^3.1.0",
 		"prettier": "~2.2.1",
