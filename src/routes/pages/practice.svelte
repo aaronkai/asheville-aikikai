@@ -33,6 +33,7 @@
 
 <main class="grid grid-row justify-items-center">
 	<article class=" mx-4 max-w-sm ">
+		
 		<img src={urlFor(banner.asset).width(600).height(400)} alt="martial arts practice" width="600" height="400"/>
 		<h1 class="font-Roboto text-5xl text-gray-900 my-8">{heading}</h1>
 		<section>
