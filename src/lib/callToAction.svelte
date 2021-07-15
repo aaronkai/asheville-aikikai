@@ -10,11 +10,11 @@
 <!-- Used an inline style here to force vite-imagetools to scoop up background image -->
 <div
 	style="background-image: url('{ctaImage}')"
-	class="mx-auto h-vh50 bg-cover bg-center flex items-start  justify-center "
+	class="mx-auto h-vh50 bg-cover bg-center flex items-end  justify-center "
 >
 	{#if !visible}
 		<button
-			class="bg-brutalred hover:bg-red-700 text-white text-3xl font-Roboto py-2 px-4 border border-red-700 rounded mt-4"
+			class="bg-brutalred hover:bg-red-700 text-white text-3xl font-Roboto py-2 px-4 border border-red-700 rounded mb-4"
 			on:click={handleClick}
 		>
 			New Member Special

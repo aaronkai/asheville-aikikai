@@ -28,14 +28,13 @@
 			activeSchedule = schedule
 		}
 	});
-	console.log(activeSchedule)
 </script>
 
 
 <main class="grid grid-row justify-items-center">
-	<img src={urlFor(banner.asset).width(600).height(400)} alt="martial arts practice" width="600" height="400"/>
 	<article class=" mx-4 max-w-sm ">
-		<h1 class="font-Roboto text-5xl text-gray-900 mb-8">{heading}</h1>
+		<img src={urlFor(banner.asset).width(600).height(400)} alt="martial arts practice" width="600" height="400"/>
+		<h1 class="font-Roboto text-5xl text-gray-900 my-8">{heading}</h1>
 		<section>
 			<h2 class="font-Roboto text-2xl text-gray-900 mb-4">{subheading}</h2>
 			{#each pageText as element}

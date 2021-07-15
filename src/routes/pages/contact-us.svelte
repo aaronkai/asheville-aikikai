@@ -12,7 +12,7 @@
 </script>
 
 <script>
-		export let dojo="default"
+	export let dojo="default"
 	let [{dojoName, streetAddress, city, state, zipCode, phoneNumber}] = dojo
 </script>
 
@@ -42,7 +42,6 @@
 				{dojoName}<br/>
 				{streetAddress}<br />
 				{`${city}, ${state}  ${zipCode}`}
-				<!-- 50 Glendale Ave. <br />Asheville, NC 28803 -->
 			</a>
 		</address>
 
