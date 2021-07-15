@@ -3,7 +3,7 @@
 	export const prerender = true;
 
 	export async function load() {
-		const pageQuery = `*[_type == "practicePage"]`
+		const pageQuery = `*[_id  == "e9408272-34cc-465a-b823-5886b4829641"]`
 		const scheduleQuery = `*[_type == "schedule"]`
 		const page = await client.fetch(pageQuery)
 		const schedule = await client.fetch(scheduleQuery)
@@ -33,7 +33,7 @@
 
 
 <main class="grid grid-row justify-items-center">
-	<img src={urlFor(banner.asset).width(600).height(400)} alt="martial arts practice" />
+	<img src={urlFor(banner.asset).width(600).height(400)} alt="martial arts practice" width="600" height="400"/>
 	<article class=" mx-4 max-w-sm ">
 		<h1 class="font-Roboto text-5xl text-gray-900 mb-8">{heading}</h1>
 		<section>

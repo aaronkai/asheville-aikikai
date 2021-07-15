@@ -1,5 +1,19 @@
 <script context="module">
 	export const prerender = true;
+	import client from '$lib/client'
+
+	export async function load() {
+		const query = `*[_type == "dojoInfo" && dojoName == "Asheville Aikikai"]`
+		const dojo = await client.fetch(query)
+		return {
+			props: {dojo}
+		}
+	}
+</script>
+
+<script>
+		export let dojo="default"
+	let [{dojoName, streetAddress, city, state, zipCode, phoneNumber}] = dojo
 </script>
 
 <main class="max-w-sm mx-auto">
@@ -25,12 +39,15 @@
 		<h2 class="text-2xl font-Roboto mt-2 text-gray-900">Our Location</h2>
 		<address>
 			<a href="https://goo.gl/maps/sEF3NVsFp7A2" class="text-gray-900 underline">
-				50 Glendale Ave. <br />Asheville, NC 28803
+				{dojoName}<br/>
+				{streetAddress}<br />
+				{`${city}, ${state}  ${zipCode}`}
+				<!-- 50 Glendale Ave. <br />Asheville, NC 28803 -->
 			</a>
 		</address>
 
 		<p />
 		<h2 class="text-2xl font-Roboto mt-2 text-gray-900">Phone</h2>
-		<a href="tel:828-777-2416 text-gray-900" class="text-gray-900 underline">(828) 777-2416</a>
+		<a href="tel:828-777-2416 text-gray-900" class="text-gray-900 underline">{phoneNumber}</a>
 	</section>
 </main>
