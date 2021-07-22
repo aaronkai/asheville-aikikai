@@ -26,7 +26,7 @@
 
 	<CallToAction />
 	<article
-		class="grid  gap-y-8 gap-x-5 px-4 pt-20 md:grid-cols-fullbleed sm:mx-auto my-10 max-w-4xl"
+		class="grid gap-y-8 gap-x-5 px-4 pt-20 md:grid-cols-fullbleed sm:mx-auto my-10 max-w-4xl"
 	>
 		<h1 class="text-5xl font-Roboto sm:col-start-2 sm:col-end-3 text-gray-900">{heading}</h1>
 		<p class="sm:col-start-2 sm:col-end-3 text-gray-900">

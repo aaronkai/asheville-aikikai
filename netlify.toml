@@ -6,7 +6,7 @@
   [build.environment]
     NODE_VERSION = "14.17.0"
 
-  [[headers]]
-    for = "/*"
-    [headers.values]
-       X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
