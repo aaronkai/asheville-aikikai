@@ -9,7 +9,7 @@
 	>
 		<!-- <img src="/logo_new.svg" width="570" height="570" class="md:row-span-2 md:col-span-1 w-32 h-auto md:p-2" alt="logo" /> -->
 		<div class="">
-			<a href="/"><Logo /></a>
+			<Logo />
 		</div>
 		<h1 class="uppercase font-Montserrat 3xl:text-6xl text-4xl sm:text-5xl  text-gray-900 col-span-4">	<a href="/" class="hover:text-red-600 hover:bold">Asheville Aikikai</a></h1>
 		<nav class="flex justify-between col-span-5 self-end">
