@@ -2,7 +2,7 @@
 	import Logo from './logo.svelte'
 </script>
 
-<header class=" border-b-4 border-gray-900 py-3 md:py-6 px-4">
+<header class=" border-b-4 border-gray-900 py-3 md:py-5 px-4">
 	<!-- Div in Header allows border to extend across window while setting max width -->
 	<div
 		class="max-w-4xl  grid grid-rows-header gap-4 md:gap-x-8 justify-between grid-cols-5 mx-auto items-center h-full"

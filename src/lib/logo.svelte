@@ -4,7 +4,7 @@
 	import { gateInner, gateOuter, window1, window2, outer } from '$lib/shape';
 	import { onMount } from 'svelte';
 
-	let visible = false;
+	let visible = true;
 
 	onMount(() => (visible = true));
 </script>
