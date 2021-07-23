@@ -1,7 +1,6 @@
 <script>
  	import { urlFor } from '$lib/image-url'
   export let instructor
-  console.log(instructor)
 </script>
 
 <section class="grid grid=row gap-y-2 ">

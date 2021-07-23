@@ -21,14 +21,12 @@
 
 <script>
 	import { urlFor } from '$lib/image-url'
-	export let banner;
 	export let heading = "Who We Are";
 	export let subheading = "Our Mission!";
 	export let pageText = "placeholder";
 	export let dan
 	export let tohei
 	export let oSensei
-	console.log({oSensei})
 </script>
 
 
