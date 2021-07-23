@@ -33,7 +33,7 @@
 
 
 <main class="grid grid-row gap-y-8 items-center justify-items-center ">
-	<h1 class="font-Roboto text-5xl text-gray-900">{heading}</h1>
+	<h1 class="font-Roboto text-5xl text-gray-900 mt-8">{heading}</h1>
 	<article class="grid grid-row gap-y-16 mx-4 items-center justify-items-center max-w-sm ">
 		<section class="grid grid=row gap-y-2 items-center justify-items-center">
 			<figure>

@@ -21,6 +21,7 @@
 	export let subheading = "All Are Welcome!";
 	export let pageText = "placeholder";
 	export let schedule = [];
+	import Hero from '$lib/hero.svelte'
 
 	let activeSchedule;
 	schedule.forEach(schedule => {
@@ -30,13 +31,12 @@
 	});
 </script>
 
+<Hero image={banner.asset} text={heading} />
 
 <main class="grid grid-row justify-items-center">
 	<article class=" mx-4 max-w-sm ">
-		
-		<img src={urlFor(banner.asset).width(600).height(400)} alt="martial arts practice" width="600" height="400"/>
-		<h1 class="font-Roboto text-5xl text-gray-900 my-8">{heading}</h1>
-		<section>
+		<!-- <h1 class="font-Roboto text-5xl text-gray-900 my-8">{heading}</h1> -->
+		<section class="mt-4">
 			<h2 class="font-Roboto text-2xl text-gray-900 mb-4">{subheading}</h2>
 			{#each pageText as element}
 				{#if element.style == "normal"}
