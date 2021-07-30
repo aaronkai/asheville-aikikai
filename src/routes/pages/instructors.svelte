@@ -25,7 +25,7 @@
 
 </script>
 <Hero image={banner.asset} text={heading}/>
-<article class="grid grid-row gap-y-16 items-center justify-items-center max-w-md mx-auto mt-8">
+<article class="grid grid-row gap-y-16 items-center justify-items-center max-w-md mx-auto pt-8 md:pt-16">
   {#each instructors as instructor}
     <Instructor {instructor} />
   {/each}`

@@ -24,10 +24,10 @@
 
 <main >
 	<Hero image={banner.asset} text={heading}/>
-	<article class="max-w-md mx-auto mt-8 px-4">
+	<article class="max-w-md mx-auto py-8 md:py-16 px-4">
 		<!-- <h1 class="font-Roboto text-5xl text-gray-900 mb-12 text-center">{heading}</h1> -->
-		<section class="my-8">
-			<h1 class="text-3xl font-Roboto text-gray-900">{subheading}</h1>
+		<section class="mb-8">
+			<h1 class="text-4xl font-Roboto text-gray-900">{subheading}</h1>
 			{#each pageText as element}
 				{#if element.style == "normal"}
 					{#each element.children as child}

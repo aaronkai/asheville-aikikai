@@ -30,8 +30,8 @@
 </script>
 
 
-<main class="grid grid-row gap-y-8 items-center justify-items-center ">
-	<h1 class="font-Roboto text-5xl text-gray-900 mt-8">{heading}</h1>
+<main class="grid grid-row gap-y-8 items-center justify-items-center py-8 md:py-16">
+	<h1 class="font-Roboto text-5xl text-gray-900">{heading}</h1>
 	<article class="grid grid-row gap-y-16 mx-4 items-center justify-items-center max-w-sm ">
 		<section class="grid grid=row gap-y-2 items-center justify-items-center">
 			<figure>
@@ -40,7 +40,7 @@
 				<figcaption class="text-sm text-gray-500">{oSensei[0].name}</figcaption>
 			</figure>
 			<h2 class="font-Roboto text-2xl text-gray-900">{oSensei[0].name}</h2>
-			<p>{oSensei[0].bio}</p>
+			<p class="">{oSensei[0].bio}</p>
 		</section>
 		<section class="grid grid=row gap-y-2 items-center justify-items-center">
 			<figure>

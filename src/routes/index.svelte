@@ -4,18 +4,19 @@
 	export async function load() {
 		const pageQuery = `*[_type  == "homepage"]`
 		const page = await client.fetch(pageQuery)
-		const [{heading, image1, image2, image3, image4,paragraph1,paragraph2,paragraph3,paragraph4}] = page
+		const [{heading, subheading, banner, image1, image2, image3, image4,paragraph1,paragraph2,paragraph3,paragraph4}] = page
 		return {
-			props: {heading,image1,image2,image3,image4,paragraph1,paragraph2,paragraph3,paragraph4}
+			props: {banner,heading,subheading,image1,image2,image3,image4,paragraph1,paragraph2,paragraph3,paragraph4}
 		}
 	}
 </script>
 
 <script>
-	import CallToAction from '$lib/callToAction.svelte';
+	import Hero from '$lib/hero.svelte';
 	import { urlFor } from '$lib/image-url'
-	export let heading = "What is Aikido";
-	export let image1, image2, image3, image4
+	export let heading = "Welcome to Asheville Aikikai";
+	export let subheading = "What is Aikido?"
+	export let banner, image1, image2, image3, image4
 	export let paragraph1, paragraph2, paragraph3, paragraph4 
 
 	let visible = false;
@@ -23,12 +24,12 @@
 
 
 <main class="">
+	<Hero image={banner.asset} text={heading} cta={true} />
 
-	<CallToAction />
 	<article
-		class="grid gap-y-8 gap-x-5 px-4 pt-20 md:grid-cols-fullbleed sm:mx-auto my-10 max-w-4xl"
+		class="grid gap-y-8 gap-x-5 px-4 pt-8 md:pt-16 md:grid-cols-fullbleed sm:mx-auto my-6 max-w-4xl"
 	>
-		<h1 class="text-5xl font-Roboto sm:col-start-2 sm:col-end-3 text-gray-900">{heading}</h1>
+		<h1 class="text-5xl font-Roboto sm:col-start-2 sm:col-end-3 text-gray-900">{subheading}</h1>
 		<p class="sm:col-start-2 sm:col-end-3 text-gray-900">
 			{paragraph1}
 		</p>

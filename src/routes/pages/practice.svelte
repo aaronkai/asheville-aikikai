@@ -33,11 +33,10 @@
 
 <Hero image={banner.asset} text={heading} />
 
-<main class="grid grid-row justify-items-center">
+<main class="grid grid-row justify-items-center py-8 md:py-16">
 	<article class=" mx-4 max-w-sm ">
-		<!-- <h1 class="font-Roboto text-5xl text-gray-900 my-8">{heading}</h1> -->
-		<section class="mt-4">
-			<h2 class="font-Roboto text-2xl text-gray-900 mb-4">{subheading}</h2>
+		<section class="">
+			<h2 class="font-Roboto text-4xl text-gray-900 mb-4 ">{subheading}</h2>
 			{#each pageText as element}
 				{#if element.style == "normal"}
 					{#each element.children as child}
