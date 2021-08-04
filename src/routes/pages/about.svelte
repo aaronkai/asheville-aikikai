@@ -1,6 +1,7 @@
 <script context="module">
 	import client from '$lib/client'
-	export const prerender = true;
+	// removing prerender to make site SSR while we work on copy and assets
+	// export const prerender = true;
 
 	export async function load() {
 		const pageQuery = `*[_id == "9ec694cb-3b16-4022-b424-e846e51a40a4"]`

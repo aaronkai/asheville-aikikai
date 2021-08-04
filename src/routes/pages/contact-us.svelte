@@ -1,6 +1,7 @@
 <script context="module">
-	export const prerender = true;
-	import client from '$lib/client'
+	import client from '$lib/client';
+	// removing prerender to make site SSR while we work on copy and assets
+	// export const prerender = true;
 	
 	export async function load() {
 		const locationQuery = `*[_type == "dojoInfo" && dojoName == "Asheville Aikikai"]`
