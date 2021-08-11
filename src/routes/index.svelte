@@ -68,7 +68,7 @@
 	<!-- ToDo create toggle var and toggle layout accordingly -->
 	<article class="max-w-6xl mx-auto">
 		{#each blocks as block}
-			<section class="grid grid-cols-2 ">
+			<section class="grid md:grid-cols-2 ">
 				<div class="p-12 flex flex-col justify-center ">
 					<h2 class="text-gray-900 text-4xl text-center mb-4">{block[1]}</h2>
 					{#each block[2] as element}
