@@ -15,7 +15,7 @@ const config = {
 				cta: "url('$lib/assets/manInGi.jpg?format=webp&w=1200')"
 			}),
 			gridTemplateColumns: {
-				fullbleed: '2fr 10fr 5fr'
+				fullbleed: '5fr 10fr 5fr'
 			},
 			gridTemplateRows: {
 				header: '4fr 1fr',

@@ -49,50 +49,71 @@
 	let visible = false;
 </script>
 
-<main class="">
+<main>
 	<Hero image={banner.asset} text={heading} cta={true} />
+	<article class="max-w-6xl mx-auto">
+		<section class="grid grid-cols-2 ">
+			<div class="p-12 flex flex-col justify-center ">
+					<h2 class="text-gray-900 text-4xl text-center mb-4">What is Aikido?</h2>
+					<p class=" text-gray-90 text-lg leading-relaxed">
+						{paragraph1}
+					</p>
+				</div>
+					<img
+						src={urlFor(image1.asset).width(800).height(1200)}
+						alt="martial arts practice"
+						width="600"
+						height="400"
+						class="w-full max-h-screen"
+					/>
+		</section>
 
-	<article
-		class="grid gap-y-8 gap-x-5 px-4 pt-8 md:pt-16 md:grid-cols-fullbleed sm:mx-auto my-6 max-w-4xl"
-	>
-		<h1 class="text-5xl font-Roboto sm:col-start-2 sm:col-end-3 text-gray-900">
-			{subheading}
-		</h1>
-		<p class="sm:col-start-2 sm:col-end-3 text-gray-900">
-			{paragraph1}
-		</p>
-		<img
-			src={urlFor(image1.asset).width(400).height(600)}
-			alt="martial arts practice"
-			width="600"
-			height="400"
-		/>
-		<p class="sm:col-start-2 sm:col-end-3 text-gray-900">
-			{paragraph2}
-		</p>
-		<img
-			src={urlFor(image2.asset).width(400).height(600)}
-			alt="martial arts practice"
-			width="600"
-			height="400"
-		/>
-		<p class="sm:col-start-2 sm:col-end-3 text-gray-900">
-			{paragraph3}
-		</p>
-		<img
-			src={urlFor(image3.asset).width(600).height(400)}
-			alt="martial arts practice"
-			width="600"
-			height="400"
-		/>
-		<p class="sm:col-start-2 sm:col-end-3 text-gray-900">
-			{paragraph4}
-		</p>
-		<img
-			src={urlFor(image4.asset).width(600).height(400)}
-			alt="martial arts practice"
-			width="600"
-			height="400"
-		/>
+		<section class="grid grid-cols-2">
+			<div class="bg-red-700 p-12 flex flex-col justify-center  ">
+				<h2 class="text-gray-50 text-4xl text-center mb-4">What Can I Expect?</h2>
+				<p class=" text-gray-50 text-lg leading-relaxed">
+					{paragraph2}
+				</p>
+			</div>
+			<img
+				src={urlFor(image2.asset).width(800).height(1200)}
+				alt="martial arts practice"
+				width="600"
+				height="400"
+				class="w-full md:order-first"
+			/>
+		</section>
+		
+		<section class="grid grid-cols-2">
+			<div class="p-12 flex flex-col justify-center  ">
+				<h2 class="text-gray-900 text-4xl text-center mb-4">Why Should I Practice?</h2>
+				<p class=" text-gray-900 text-lg leading-relaxed">
+					{paragraph3}
+				</p>
+			</div>
+			<img
+				src={urlFor(image3.asset).width(800).height(1200)}
+				alt="martial arts practice"
+				width="600"
+				height="400"
+				class="w-full"
+			/>
+		</section>
+
+		<section class="grid grid-cols-2">
+			<div class="bg-red-700 p-12 flex flex-col justify-center  ">
+				<h2 class="text-gray-50 text-4xl text-center mb-4">How To Start</h2>
+				<p class=" text-gray-5A0 text-lg leading-relaxed">
+					{paragraph4}
+				</p>
+			</div>
+			<img
+				src={urlFor(image4.asset).width(800).height(1200)}
+				alt="martial arts practice"
+				width="600"
+				height="400"
+				class="w-full md:order-first"
+			/>
+		</section>
 	</article>
 </main>
