@@ -1,5 +1,5 @@
 <script context="module">
-	import client from '$lib/client'
+	import client from '$lib/Client'
 	// removing prerender to make site SSR while we work on copy and assets
 	// export const prerender = true;
 
@@ -17,8 +17,8 @@
 </script>
 
 <script>
-  import Instructor from '$lib/instructor.svelte';
-  import Hero from '$lib/hero.svelte'
+  import Instructor from '$lib/Instructor.svelte';
+  import Hero from '$lib/Hero.svelte'
   
   export let instructors;
 	export let banner;

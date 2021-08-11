@@ -1,5 +1,5 @@
 <script context="module">
-	import client from '$lib/client';
+	import client from '$lib/Client';
 	// removing prerender to make site SSR while we work on copy and assets
 	// export const prerender = true;
 	
@@ -16,7 +16,7 @@
 </script>
 
 <script>
-	import Hero from '$lib/hero.svelte'
+	import Hero from '$lib/Hero.svelte'
 	export let dojo="default"
 	export let page;
 	let [{dojoName, streetAddress, city, state, zipCode, phoneNumber}] = dojo;

@@ -1,5 +1,5 @@
 <script context="module">
-	import client from '$lib/client';
+	import client from '$lib/Client';
 	// removing prerender to make site SSR while we work on copy and assets
 	// export const prerender = true;
 	export async function load() {
@@ -39,8 +39,8 @@
 </script>
 
 <script>
-	import Hero from '$lib/hero.svelte';
-	import { urlFor } from '$lib/image-url';
+	import Hero from '$lib/Hero.svelte';
+	import { urlFor } from '$lib/Image-url';
 	export let heading = 'Welcome to Asheville Aikikai';
 	export let subheading = 'What is Aikido?';
 	export let banner, image1, image2, image3, image4;
@@ -103,7 +103,7 @@
 		<section class="grid grid-cols-2">
 			<div class="bg-red-700 p-12 flex flex-col justify-center  ">
 				<h2 class="text-gray-50 text-4xl text-center mb-4">How To Start</h2>
-				<p class=" text-gray-5A0 text-lg leading-relaxed">
+				<p class=" text-gray-50 text-lg leading-relaxed">
 					{paragraph4}
 				</p>
 			</div>

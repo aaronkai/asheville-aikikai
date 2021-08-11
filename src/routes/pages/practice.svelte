@@ -1,5 +1,5 @@
 <script context="module">
-	import client from '$lib/client'
+	import client from '$lib/Client'
 	// removing prerender to make site SSR while we work on copy and assets
 	// export const prerender = true;
 
@@ -16,13 +16,13 @@
 </script>
 
 <script>
-	import { urlFor } from '$lib/image-url'
+	import { urlFor } from '$lib/Image-url'
 	export let banner;
 	export let heading = "Adult Practice";
 	export let subheading = "All Are Welcome!";
 	export let pageText = "placeholder";
 	export let schedule = [];
-	import Hero from '$lib/hero.svelte'
+	import Hero from '$lib/Hero.svelte'
 
 	let activeSchedule;
 	schedule.forEach(schedule => {

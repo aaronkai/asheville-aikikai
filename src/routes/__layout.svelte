@@ -1,5 +1,5 @@
 <script context="module">
-  import client from '$lib/client'
+  import client from '$lib/Client'
 
 	export async function load() {
     const query = `*[_type == "dojoInfo" && dojoName == "Asheville Aikikai"]`
@@ -12,8 +12,8 @@
 
 <script>
 	import '../app.postcss';
-	import Header from '$lib/header.svelte';
-	import Footer from '$lib/footer.svelte';
+	import Header from '$lib/Header.svelte';
+	import Footer from '$lib/Footer.svelte';
 
   export let dojo
 </script>

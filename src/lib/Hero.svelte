@@ -1,5 +1,5 @@
 <script>
-  import { urlFor } from '$lib/image-url'
+  import { urlFor } from '$lib/Image-url'
   export let image;
   export let text;
   export let cta = false;

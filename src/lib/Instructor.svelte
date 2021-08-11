@@ -1,5 +1,5 @@
 <script>
- 	import { urlFor } from '$lib/image-url'
+ 	import { urlFor } from '$lib/Image-url'
   export let instructor
 </script>
 
@@ -13,7 +13,7 @@
     <h3 class="font-Roboto text-2xl md:text-3xl text-gray-900 ">
       {instructor.rank}
     </h3>
-    <p class="mt-4 text-gray-900 text-lg">{instructor.bio}</p>
+    <p class="mt-4 text-gray-900 text-lg leading-relaxed">{instructor.bio}</p>
   </div>
 </section>
 
