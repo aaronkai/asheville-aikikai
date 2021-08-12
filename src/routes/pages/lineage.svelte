@@ -34,8 +34,8 @@
 
 
 <main class="grid grid-row gap-y-8 items-center justify-items-center pb-8" >
-	<div class="w-full bg-gray-900  p-8 uppercase">
-		<h1 class="font-Montserrat text-gray-50 text-5xl text-gray-900 text-center">{heading}</h1>
+	<div class="w-full bg-brutalred p-8 border-b-2 border-gray-900">
+		<h1 class="font-Montserrat text-gray-50 text-5xl text-center uppercase">{heading}</h1>
 
 	</div>
 	<article class="grid grid-row gap-y-16 mx-4 items-center justify-items-center">

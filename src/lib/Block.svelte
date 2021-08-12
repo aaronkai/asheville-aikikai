@@ -27,7 +27,7 @@
       alt="martial arts practice"
       width="800"
       height="1200"
-      class="h-full max-h-screen {i % 2 === 1 ? 'order-first':''}"
+      class="h-full max-h-screen {i % 2 === 1 ? 'sm:order-first':''}"
       />
     </section>
 </article>
