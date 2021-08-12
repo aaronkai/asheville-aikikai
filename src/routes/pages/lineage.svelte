@@ -57,7 +57,7 @@
 
 		<!-- <section class="grid grid=row gap-y-2 items-center justify-items-center">
 			<h1 class="font-Roboto text-5xl text-gray-900 mt-8 mb-4">{subheading}</h1>
-			{#each pageText as element}
+		{#each pageText as element}
 			{#if element.style == "normal"}
 				{#each element.children as child}
 					<p class="mt-4 text-gray-900">{child.text}</p>

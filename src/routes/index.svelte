@@ -42,12 +42,13 @@
 			}
 		};
 	}
+
 </script>
 
 <script>
 	// pull in props
+	import Block from '$lib/Block.svelte'
 	import Hero from '$lib/Hero.svelte';
-	import { urlFor } from '$lib/Image-url';
 	export let heading = 'Welcome to Asheville Aikikai';
 	export let banner, image1, image2, image3, image4;
 	export let subheader1, subheader2, subheader3, subheader4;
@@ -60,33 +61,20 @@
 	let fourthBlock = [image4, subheader4, block4];
 	let blocks = [firstBlock, secondBlock, thirdBlock, fourthBlock]
 
+	let toggled = false
+	function flip() {
+		toggled = !toggled
+		console.log(`in function ${toggled}`)
+		return toggled
+	}
+
 </script>
 
 <main>
 	<Hero image={banner.asset} text={heading} cta={true} />
-
-	<!-- ToDo create toggle var and toggle layout accordingly -->
 	<article class="max-w-6xl mx-auto">
-		{#each blocks as block}
-			<section class="grid md:grid-cols-2 ">
-				<div class="p-12 flex flex-col justify-center ">
-					<h2 class="text-gray-900 text-4xl text-center mb-4">{block[1]}</h2>
-					{#each block[2] as element}
-					{#if element.style == "normal"}
-						{#each element.children as child}
-							<p class="text-gray-900 text-lg leading-relaxed">{child.text}</p>
-						{/each}
-					{/if}
-				{/each}
-				</div>
-				<img
-				src={urlFor(block[0].asset).width(800).height(1200)}
-				alt="martial arts practice"
-				width="600"
-				height="400"
-				class="w-full max-h-screen"
-				/>
-			</section>
+		{#each blocks as block, i}
+			<Block {block} {i} />
 		{/each}
 	</article>
 </main>
